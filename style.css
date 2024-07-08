@@ -1,0 +1,419 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body {
+        width: 100vw;
+        height: 100%;
+
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 10px;
+} 
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+header {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    
+}
+.container{
+    overflow: hidden;
+    background-color: #333;
+}
+.container a{
+    float: left;
+    color: #bdb3b3;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.container a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+.container a.active{
+    background-color: #588ea2;
+    color: white;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(240, 240, 240);
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+}
+h1{
+    color:#ffffff; 
+    font-size:3em;
+    text-align:left;
+    }
+h2{
+        color:#ffffffcc; 
+        font-size: 4em;
+}
+.top{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url("https://static1.xdaimages.com/wordpress/wp-content/uploads/2023/10/samsung-galaxy-fold-6-featured-image.jpg");
+    background-size:cover;
+    background-position: 150%;
+}
+.top .overlay {
+    position:relative;
+    width:100%;
+    min-height:inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+    position:relative;
+    width: 100%;
+    padding: 0 10vh;
+    color:whitesmoke;
+    bottom: 2%;
+}
+.text h2{
+    font-weight: 600;
+    font-size: 250%;
+    text-align:left;
+    }
+.text1 h1{
+        font-weight: 600;
+        font-size: 350%;
+        text-align:justify;
+}
+.text .image{
+    
+    background-size: cover;
+    background-position:top;
+    height: 300px;
+    width: 220px;
+}
+p{
+    
+    top: 10px;
+    color:white;
+    font-size:40px;
+    text-align: center;
+    font-style:oblique;
+}
+
+.bottom{
+    display:flex;
+    width: 100%;
+    min-height: 5vh;
+    align-items:normal;
+    background-position: center;
+}
+
+.b1{
+    margin: auto;
+    width:60%;
+    min-height: inherit;
+    
+}
+.b1 h1{
+    font-style:unset;
+    font-size:xx-large;
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    
+    color:black;
+    text-align:center;
+    font-size:medium;
+    padding: 12px;
+    }
+   
+
+.b2{
+    margin: auto;
+    width: 100%;
+    min-height: inherit;
+    display:flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-color:rgba(126, 126, 126, 0.218);
+
+}
+.b2 .up h1{
+    
+    text-align: center;
+    padding: 10px;
+}
+.b2 .up p{
+    color:rgb(5, 5, 5);
+    text-align:justify;
+    padding: 5%;
+    font-size:150%;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.344);
+}
+.b2 .down .overlay p{
+    color:black;
+    font-size:xx-large;
+    
+    
+}
+button{
+    border:none;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: rgb(5, 5, 5);
+    width: 150%;
+
+   
+}
+.center{
+    margin: 0;
+    position:absolute;
+    top: 200%;
+    left: 42%;
+}
+.row:after {
+    content: "";
+    display: table;
+   
+    clear: both;
+  }
+
+  *{
+    box-sizing: border-box;
+    text-align: center;
+  }
+ 
+  #products {
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    max-width: 800%;
+    
+}
+
+.product1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 240px;
+    height: 250px;
+    position:relative;
+    background-image: url("https://th.bing.com/th/id/OIP.WaYm2SYZDbJpDz_3pR5NpgAAAA?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: cover;
+}
+.product2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 240px;
+    height: 250px;
+    position:relative;
+    background-image: url("https://th.bing.com/th/id/OIP.GvC6m8ZqySDAZ3b__V4H4QHaEK?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: cover;
+}
+.product3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 240px;
+    height: 250px;
+    position:relative;
+    background-image: url("https://th.bing.com/th/id/OIP._gPRAGuWouARmL_5tWQO8gHaHa?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: cover;
+}
+.product4 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 240px;
+    height: 250px;
+    position:relative;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/pXk7uQbfYwHqKgf2CvJV8f.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.product5 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 240px;
+    height: 250px;
+    position:relative;
+    background-image: url("https://i.ytimg.com/vi/2na0ecBCnxA/maxresdefault.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.product6 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 240px;
+    height: 250px;
+    position:relative;
+    background-image: url("https://i1.wp.com/www.theunbiasedblog.com/wp-content/uploads/2014/02/Product-Image_Ref1.jpg?fit=1869%2C1335&ssl=1");
+    background-position: center;
+    background-size: cover;
+}
+.product-info {
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.counter {
+    position:absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    width: 10px;
+    height: 10px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#i6{
+    color:black;
+    text-align: center;
+    background-color: blueviolet; 
+    font-size: 30px; 
+    padding: 5px;
+}
+ 
+footer{
+   
+   background-color: #0a081de4;
+   
+    text-align:center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    min-height: auto;
+    width:100%;
+           
+}
+@media (max-width:600px) {
+    html,body {
+        width: 100%;
+        
+    }
+    h1{ 
+        font-size:1em;
+        text-align:left;
+    }
+    h2{
+        font-size: 2em;
+}
+    
+    .container {
+      padding: 0px 5px;
+    }
+    .text {
+      padding: 0 5vh;
+    }
+    .b1, .b2 {
+      width: 100%;
+    }
+    #products {
+      flex-direction: column;
+    }
+    .product1, .product2, .product3, .product4, .product5, .product6 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .container a{
+        float: left;
+        padding: 5px;
+        font-size: 10px;
+    }
+    button{
+        padding: 10px;
+        font-size: 15px;
+        top: 2px;    
+        position:relative;
+        border-radius: 3px;
+        width: 100%;
+        right: 20%;
+       
+    }
+    p{
+        top: 5px;
+        font-size:20px;
+    }
+    #i1, #i2, #i3, #i4, #i5{
+        font-size:15px;
+        word-spacing: normal;
+    }
+    #i6{
+        font-size: 15px; 
+        font-weight:bold;
+    }
+    footer{
+         font-size: 9px;
+          color:antiquewhite;      
+     }
+    .top{
+        width: 100%;
+        max-height: min-content;
+    }
+    #i0{
+        font-size: 2em;
+    }
+    #ii{
+        font-size: 2.5em;
+    }
+    
+  }
